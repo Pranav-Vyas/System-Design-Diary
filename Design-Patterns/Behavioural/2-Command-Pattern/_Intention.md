@@ -1,0 +1,18 @@
+### Text editor
+- commands ====> save, copy, click, hover, undo, redo
+- for every command, some action needs to be performed
+- we will treat commands like objects
+- suppose for save button, we have ctrl+s
+- by pressing this button, we need to perform same operation
+- whatever request we give, we store it as an object
+- in all of them we will have execute() function
+- receiver execute something --> it takes action
+- when we undo, we go one command back
+- when we redo, we execute same command again
+- we should able to send command/request as a parameter
+- we try to decouple sender of request and receiver of request
+- Interface ----> Command
+- Concreate commands ----> Action save command, Action open command
+- treat command as object
+- point is whatever commands that are comming, you have to store it somehow
+- so, store it as objects
