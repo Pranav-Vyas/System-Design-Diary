@@ -1,0 +1,4 @@
+- to solve open/closed problem in simple factory
+- we can make different factories for different loggers
+- those factories will inherit from factory interface
+- at the starting we can put if-else and decide which factory we have to make
