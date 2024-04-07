@@ -1,3 +1,8 @@
+// In this example, we are using proxy for lazy loading
+// image is not loaded when proxy object is created
+// it is loaded and displayed only when client execute proxy.display()
+// also image will not be loaded second time when we execute proxy.display(), it is in cache, so displayed directly
+
 interface Image {
     void display();
 }
