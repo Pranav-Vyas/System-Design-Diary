@@ -32,4 +32,9 @@ Having a facade is handy when you need to integrate your app with a sophisticate
 
 ![image](https://github.com/Pranav-Vyas/System-Design-Diary/assets/86347266/749faa5f-5570-411f-9810-a912cd4e08ca)
 
+## Note
+- An app can have multiple facades using each other
+- facade 1 -----> facade 2 ----------> facade 3
+![image](https://github.com/Pranav-Vyas/System-Design-Diary/assets/86347266/9525073f-733d-415c-ba61-7cdc87a5644b)
+
 
